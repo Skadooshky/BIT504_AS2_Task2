@@ -11,10 +11,10 @@ public class Cell {
 	
 	/** Constructor to initialise this cell with the specified row and col */
 	public Cell(int row1, int col1) {
-		
+		//changed constructors variables to row1 and col1 to avoid an error that occurred
 		row = row1;
 		col = col1;
-		
+		//when generating cells creates them and asigns them empty
 		clear();
 	}
 	
